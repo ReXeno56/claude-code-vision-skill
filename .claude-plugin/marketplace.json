@@ -1,0 +1,16 @@
+{
+  "name": "claude-code-vision-skill",
+  "description": "Enable image recognition for models without vision capability by delegating to an external vision-capable API (Claude, OpenAI, or compatible endpoints)",
+  "owner": {
+    "name": "ReXeno56"
+  },
+  "plugins": [
+    {
+      "name": "vision",
+      "description": "Recognize and describe images using an external vision-capable model. Use this skill whenever the user provides an image path and asks what's in it, asks to analyze a screenshot, diagram, photo, or any image file.",
+      "source": "./plugins/vision",
+      "category": "productivity",
+      "homepage": "https://github.com/ReXeno56/claude-code-vision-skill"
+    }
+  ]
+}
